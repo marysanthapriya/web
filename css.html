@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>CSS Overflow Exple</title>
+<style>
+div{
+    width: 200px;
+    height: 100px;
+    margin-bottom:10px;
+}
+.hidden {
+    overflow: hidden;
+    background-color: rgb(173, 179, 230);
+}
+.scroll {
+    overflow: scroll;
+    background-color: rgb(230, 79, 129);
+}
+.auto {
+    overflow: auto;
+    background-color: rgb(5, 94, 121);
+}
+.visible {
+    overflow: visible;
+    background-color: rgb(110, 14, 30);
+}
+</style>
+<body>
+    <h1>CSS Overflow Example</h1>
+    <div class="hidden">This is a div with hidden overflow. Content that exceeds the height will not be visible.</div>
+    <div class="scroll">This is a div with scroll overflow. Scrollbars will appear if content exceeds the height.</div>
+    <div class="auto">This is a div with auto overflow. Scrollbars will appear only if necessary.</div>
+    <div class="visible">This is a div with visible overflow. Content that exceeds the height will be visible outside the box.</div>
+</body>
+</html>
+<!--             </style>
+ -->
